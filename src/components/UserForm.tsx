@@ -67,7 +67,7 @@ export default function UserForm() {
     <Navigation/>
     <Form {...form}>
       <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8 border-2 rounded-xl p-10 w-auto sm:w-120 m-5">
-        <h1 className="text-3xl font-semibold text-center ">GitHub User Anaylzer</h1>
+        <h1 className="text-3xl font-semibold text-center ">GitHub User Analyzer</h1>
         <hr className="border"/>
         <FormField
           control={form.control}
